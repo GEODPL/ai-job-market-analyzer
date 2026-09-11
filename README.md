@@ -31,7 +31,7 @@ cd backend
 pip install -r requirements.txt --break-system-packages
 ```
 
-3. (Προαιρετικά) Φόρτωσε demo δεδομένα στο Supabase:
+3.  Φόρτωσε demo δεδομένα στο Supabase:
 ```bash
 python etl_pipeline.py
 ```
@@ -41,7 +41,7 @@ python etl_pipeline.py
 uvicorn main:app --reload
 ```
 
-5. Άνοιξε το browser στο **http://localhost:8000** — θα δεις το site (όχι Streamlit UI), που καλεί το FastAPI backend στο `/api/*`.
+5. Άνοιξε το browser στο **http://localhost:8000** — θα δεις το site , που καλεί το FastAPI backend στο `/api/*`.
 
 ## API endpoints
 - `GET  /api/health`
